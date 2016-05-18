@@ -1,0 +1,91 @@
+{
+  "listOfArticles" : [
+    {
+      "id": 1,
+      "title": "First title",
+      "image": "1.jpg",
+      "body": "Sample text for first article...",
+      "datePublished": "01.01.01",
+      "categoryId": "firstcat"
+    },
+    {
+      "id": 2,
+      "title": "Second title",
+      "image": "2.jpg",
+      "body": "Sample text for second article...",
+      "datePublished": "02.02.02",
+      "categoryId": "firstcat"
+    },
+    {
+      "id": 3,
+      "title": "Third title",
+      "image": "3.jpg",
+      "body": "Sample text for third article...",
+      "datePublished": "03.03.03",
+      "categoryId": "firstcat"
+    },
+    {
+      "id": 4,
+      "title": "Fourth title",
+      "image": "4.jpg",
+      "body": "Sample text for fourth article...",
+      "datePublished": "04.04.04",
+      "categoryId": "secondcat"
+    },
+    {
+      "id": 5,
+      "title": "Fifth title",
+      "image": "5.jpg",
+      "body": "Sample text for fifth article...",
+      "datePublished": "05.05.05",
+      "categoryId": "secondcat"
+    },
+    {
+      "id": 6,
+      "title": "Sixth title",
+      "image": "6.jpg",
+      "body": "Sample text for sixth article...",
+      "datePublished": "06.06.06",
+      "categoryId": "secondcat"
+    },
+    {
+      "id": 7,
+      "title": "Seventh title",
+      "image": "7.jpg",
+      "body": "Sample text for seventh article...",
+      "datePublished": "07.07.07",
+      "categoryId": "thirdcat"
+    },
+    {
+      "id": 8,
+      "title": "Eighth title",
+      "image": "8.jpg",
+      "body": "Sample text for eighth article...",
+      "datePublished": "08.08.08",
+      "categoryId": "thirdcat"
+    },
+    {
+      "id": 9,
+      "title": "Ninth title",
+      "image": "9.jpg",
+      "body": "Sample text for ninth article...",
+      "datePublished": "09.09.09",
+      "categoryId": "thirdcat"
+    }
+  ],
+
+  "listOfCategories" : [
+    {
+      "name" : "First Category",
+      "id" : "firstcat"
+    },
+    {
+      "name" : "Second Category",
+      "id" : "secondcat"
+    },
+    {
+      "name" : "Third Category",
+      "id" : "thirdcat"
+    }
+  ]
+}

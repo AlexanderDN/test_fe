@@ -1,0 +1,58 @@
+body{
+    background:#f5f5f5;
+}
+.main-content{
+    padding: 30px;
+    padding-right: 0;
+}
+.title{
+    margin-top:0;
+}
+.article{
+    border-bottom: 1px solid #9d9d9d;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    -webkit-transition: 1s linear all;
+    transition: 1s linear all;
+}
+.sidebar{
+    background-color: #000;
+    min-height:100%;
+    position: fixed;
+    right:0;
+    color: #fff;
+}
+.sidebar a{
+    color:#ebebeb;
+}
+.sidebar .list-group a{
+    border:none;
+    background-color: #000
+}
+.first-widget{
+    border-bottom: 1px solid #9d9d9d;
+}
+.article .col-sm-3{
+    padding-left: 0;
+}
+.sidebar-articles{
+    -webkit-transition: .5s linear all;
+    transition: .5s linear all;
+}
+.article.ng-enter,
+.sidebar-articles.ng-enter{
+    opacity: 0;
+}
+.article.ng-enter-active,
+.sidebar-articles.ng-enter-active{
+    opacity: 1;
+}
+.article.ng-leave,
+.sidebar-articles.ng-leave{
+    opacity: 1;
+}
+.article.ng-leave-active,
+.sidebar-articles.ng-leave-active{
+    opacity: 0;
+}
+
